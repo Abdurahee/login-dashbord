@@ -1,0 +1,400 @@
+*{
+  font-family: poppins;
+  margin: 0;
+  padding: 0;
+}
+body{
+  font-family: ;
+  margin: 0;
+  padding: 0;
+  background-color:rgb(14, 14, 31);
+
+}
+  
+
+.navbar{
+width: 300px;
+height: 75px;
+margin: auto;
+
+}
+.icon{
+    width: 200px;
+    height: 75px;
+    float: left;
+    
+}
+.logo{
+    color:#2be2fa;
+    top :-300px; ;
+    font-size: 50px;
+    font-family: 'Arial Narrow Bold';
+    padding-left: 85px;
+    float: left;
+    padding-top: 20px;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+
+.menu{
+    width:400px ;
+    float: left;
+    height: 70px;
+    
+}
+
+ul{
+    float: left;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+ul li{
+    list-style: none;
+    margin-top:27px ;
+    margin-left:62px;
+    font-size: 16px;
+    font-family: Arial;
+    font-weight: bold;
+    padding-left: 35px;
+    
+}
+
+ul li a{
+    text-decoration: none;
+    color: #2be2fa;
+
+}
+
+ ul li a:hover{
+    color:white;
+
+}
+
+.search{
+    width: 330px;
+    float: left;
+    padding-left: 70px;
+
+    margin-left: 270px;
+    
+}
+
+
+.srch{
+    width :200px;
+    font-family:'Times New Roman';
+    height: 40px;
+    background: transparent;
+    border: 3px solid white;
+    margin-top: 13px;
+    color:white;
+    border-right: none;
+    font-size: 20px;
+    float: left;
+    padding-left: 10px;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    border-radius: 10px;
+    
+    
+}
+
+.btn{
+    width: 100px;
+    height: 40px;
+    margin-top: 12px;
+    border: 3px solid white;
+    background: #2be2fa;
+    color: solid white;
+    font-size:20px; 
+    border-bottom-right-radius: 5px;
+    border-top-right-radius: 5px;
+    padding-left: 20px;
+border-radius: 10px;
+
+
+}
+
+
+
+
+
+.btn:focus{
+    outline: none;
+}
+
+.srch:focus{
+    outline: none;
+}
+
+.content{
+    width: 1200px;
+    height: auto;
+    margin-left: 100px;
+    position: relative;
+    padding-top: 200px;
+    
+}
+
+
+
+
+.content .par{
+
+
+padding-bottom: 40px;
+font-family: Arial;
+line-height: 30px;
+letter-spacing: 1px;
+}
+
+.content h3{
+font-family: 'Times New Roman';
+letter-spacing: 2px;
+font-size: 40px;
+color: white;
+font-weight: bolder;
+}
+
+
+.download{
+    padding-left: 70px;
+    padding-top : 40px; 
+}
+
+.download h2{
+   padding-bottom: 30px; 
+   color: white;
+   font-size: 30px;
+}
+
+
+.btns{
+    width: 100px;
+    height: 40px;
+    margin-top: 12px;
+    cursor: pointer;
+    border-radius:10px ;
+
+}
+
+
+.form{
+    height: 450px;
+    width: 300px;
+     position:relative;
+     right:-770px;
+     border-radius: 10px;
+     border: 3px solid white;
+     background-color:#2be2fa;
+     top :-260px;
+     padding: 25px;
+     
+}
+
+.form h2{
+width: 300px;
+font-family: sans-serif;
+align-items: center;
+color: white;
+font-size: 22px;
+background-color: rgb(14, 14, 31);
+border-radius: 10px;
+margin: 2px;
+padding: 8px;
+padding-left: 7px;
+}
+.form input{
+    width:240px ;
+    height:35px ;
+    background: none ;
+
+    border: 1px solid black;
+    
+    color: white;
+    font-size: 20px;
+    letter-spacing: 1px;
+    margin-top: 30px;
+    font-family: sans-serif;
+}
+
+::placeholder{
+    color:rgb(14, 14, 31);
+    font-family: arial;
+}
+.btnn{
+    width: 200px;
+    height: 40px;
+    background-color: rgb(14, 14, 31);
+    font-size: 20px;
+    border: none;
+    margin-top: 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    color: white;
+    transition: 0.4s ease-out;
+
+}
+
+.btnn:hover{
+    color: white;
+    background: white;
+}
+.btnn a{
+    text-decoration: none;
+    color: #2be2fa;
+    font-weight: bold;
+}
+.link{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    padding-top: 20px;
+    color: white;
+    text-align: center;
+
+}
+
+.link a{
+    text-decoration: none;
+    color:rgb(14, 14, 31);
+    font-size: 20px;
+}
+
+.liw{
+    padding-top: 15px;
+    padding-bottom: 10px;
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+.icon {
+    text-align: center ;
+    color: ;
+    text-decoration:none ;
+}
+.icon i{
+    color: rgb(14, 14, 31);
+    padding-left: 23px;
+    padding-top: 5px;
+}
+.icon i:hover{
+    color: white;
+    transition: 0.3s ease-out;
+}
+
+.download{
+    position: absolute;
+left:  -70px;
+margin-top: 77px;
+margin-right: 400px;
+}
+
+.download h3{
+    font-size: bold;
+    color: white;
+    font-family: Arial;
+}
+.download button {
+    position: relative;
+    width: 150px;
+    height: 80px;
+    background-color: #2be2fa;
+    border-radius: 30px;
+    margin: 10px;
+    padding-right: 40px;
+    border: none;
+    left: -18px;
+}
+.download i:hover{
+    color: white;
+    transition: 0.3s ease-out;
+}
+
+.title{
+    position: relative;
+    text-align: center;
+    margin: 50px ;
+    font-size: 20px;
+    font-family: Arial;
+    line-height: 70px;
+    font-weight: bold;
+    letter-spacing: 0.4px;
+    color: white;
+    bottom: 200px;
+  }
+
+  
+  .col-6{
+    
+    
+    
+    
+    display:flex;
+    
+    
+  }
+  .col-6 img{
+    position:relative ;
+    width: 200px;
+    height: 100px;
+    bottom: 150px;
+  right: -200px;
+    margin: 15px;
+  }
+
+
+
+
+
+  hr{
+
+    border-color:white;
+    border-width: 1px;
+    width: 1350px}
+
+
+    .footer1 {
+      
+
+    
+        padding-right: 25px;
+        
+        margin-top: 20px;
+        color: white; 
+        height: 160px;
+      
+    }
+    .footer1 a{
+      text-decoration: none;
+      color: white;
+      display: inline-block;
+    }
+    
+  .footer1  li{
+    list-style-type: none;
+    
+  }
+  .footer1 a{
+    text-decoration: none;
+    color:whitesmoke;
+    
+  }
+  .footer1  a:hover{
+    text-decoration: underline;
+    color:#2be2fa;
+  
+  }
+.footer1 h2{
+
+    
+    font-size: 30px;
+    color: white;
+    padding-left: 700px;
+    font-weight: bold;
+}
+
+  
